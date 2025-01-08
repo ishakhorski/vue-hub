@@ -2,7 +2,6 @@
 
 Thank you for your interest in contributing! 🎉 This repository thrives on collaboration, and we’re excited to have you on board. Follow these guidelines to ensure a smooth contribution process.
 
----
 
 ## 🛠️ How You Can Contribute
 
