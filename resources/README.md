@@ -1,3 +1,3 @@
-# Useful Resources
+# Resources
 
-- [Links](links.md)
+- [Useful Links for Vue Development](links.md)

@@ -1,1 +1,1 @@
-# Useful Snippets
+# Snippets
