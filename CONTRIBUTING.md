@@ -2,7 +2,6 @@
 
 Thank you for your interest in contributing! 🎉 This repository thrives on collaboration, and we’re excited to have you on board. Follow these guidelines to ensure a smooth contribution process.
 
-
 ## 🛠️ How You Can Contribute
 
 ### 1. Share a Guide
@@ -49,7 +48,7 @@ Thank you for your interest in contributing! 🎉 This repository thrives on col
 ## 💡 Contribution Workflow
 
 1. **Fork the Repository**: Start by forking the repo to your account.
-2. **Create a Branch**: Use a meaningful name like `add-guide-vue-router`.
+2. **Create a Branch**: Use a meaningful name like `feat/add-guide-vue-router`.
 3. **Submit a Pull Request**:
    - Link any related Issue in the description.
    - Clearly explain the changes you’re making.
