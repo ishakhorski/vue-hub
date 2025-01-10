@@ -28,6 +28,6 @@ We welcome contributions from everyone! Here's how you can help:
 Have a question or suggestion? Feel free to:
 
 - Open an [Issue](https://github.com/frontend-knowledge-hub/vue-hub/issues).
-- Join the conversation in [Discussions](https://github.com/frontend-knowledge-hub/discussions).
+- Join the conversation in [Discussions](https://github.com/orgs/frontend-knowledge-hub/discussions).
 
 Let's make Vue development awesome together! 🚀
