@@ -27,7 +27,7 @@ We welcome contributions from everyone! Here's how you can help:
 
 Have a question or suggestion? Feel free to:
 
-- Open an [Issue](https://github.com/organization/vue/issues).
-- Join the conversation in [Discussions](https://github.com/organization/vue/discussions).
+- Open an [Issue](https://github.com/frontend-knowledge-hub/vue-hub/issues).
+- Join the conversation in [Discussions](https://github.com/frontend-knowledge-hub/vue-hub/discussions).
 
 Let's make Vue development awesome together! 🚀
