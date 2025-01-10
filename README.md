@@ -1,6 +1,6 @@
 # Vue Knowledge HUB 🖖
 
-Welcome to the **Vue Knowledge Base**, your go-to repository for all things Vue.js! Whether you're a beginner or an experienced developer, this repository is designed to help you learn, share, and grow as a Vue developer.
+Welcome to the **Vue Knowledge HUB**, your go-to repository for all things Vue.js! Whether you're a beginner or an experienced developer, this repository is designed to help you learn, share, and grow as a Vue developer.
 
 ## 📚 What's Inside
 
