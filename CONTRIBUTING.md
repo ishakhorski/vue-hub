@@ -88,7 +88,7 @@ If your contribution impacts documentation, update the relevant files in the `/d
 
 ## Community and Support
 
-Join our community discussions on [Discussions](https://github.com/frontend-knowledge-hub/vue-hub/discussions). If you have questions or need help, feel free to reach out there.
+Join our community discussions on [Discussions](https://github.com/frontend-knowledge-hub/discussions). If you have questions or need help, feel free to reach out there.
 
 ---
 
