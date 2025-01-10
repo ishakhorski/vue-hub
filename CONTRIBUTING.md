@@ -1,69 +1,95 @@
-# Contributing to Vue Knowledge Base 🖖
+# Contributing to Vue-Hub
 
-Thank you for your interest in contributing! 🎉 This repository thrives on collaboration, and we’re excited to have you on board. Follow these guidelines to ensure a smooth contribution process.
+Thank you for your interest in contributing to Vue-Hub! Your contributions help us make this project better for everyone. To get started, please read through the following guidelines.
 
-## 🛠️ How You Can Contribute
+## Table of Contents
 
-### 1. Share a Guide
+- [Code of Conduct](#code-of-conduct)
+- [Getting Started](#getting-started)
+- [How to Contribute](#how-to-contribute)
+  - [Reporting Bugs](#reporting-bugs)
+  - [Suggesting Features](#suggesting-features)
+  - [Submitting Changes](#submitting-changes)
+- [Coding Standards](#coding-standards)
+- [Documentation](#documentation)
+- [Community and Support](#community-and-support)
 
-- Create a new Markdown file in the `guides/` directory.
-- Use this structure:
+---
 
-  ```markdown
-  # Guide Title
+## Code of Conduct
 
-  ## Introduction
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a respectful and inclusive community. By participating, you agree to abide by its terms.
 
-  Briefly explain the purpose of the guide.
+## Getting Started
 
-  ## Step 1: Title
+### Setup Instructions
 
-  Describe the first step with code examples if needed.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/frontend-knowledge-hub/vue-hub.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd vue-hub
+   ```
 
-  ## Additional Steps
+You're all set to contribute!
 
-  Continue as necessary.
+## How to Contribute
 
-  ## Conclusion
+### Reporting Bugs
 
-  Summarize key takeaways.
-  ```
+If you find a bug, please create an issue using the [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md). Provide as much detail as possible, including:
+- Steps to reproduce the issue
+- Expected behavior
+- Actual behavior
+- Screenshots or code snippets, if applicable
 
-### 2. Add a Snippet
+### Suggesting Features
 
-- Place your snippet in the `snippets/` directory.
-- Use descriptive file names (e.g., `useDebounce.js`).
-- Include comments to explain the snippet.
+We welcome suggestions for new features! Open an issue using the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md) and describe:
+- The problem you're trying to solve
+- Your proposed solution
+- Any alternatives you've considered
 
-### 3. Add to Best Practices
+### Submitting Changes
 
-- Update the `best-practices.md` file with your recommendation.
-- Ensure the content is clear and concise.
+1. Create a new branch directly in the main repository:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+   - Use the following branch naming conventions:
+     - `feature/<short-description>` for new features
+     - `bugfix/<short-description>` for bug fixes
+     - `hotfix/<short-description>` for urgent fixes
+     - `docs/<short-description>` for documentation updates
+2. Make your changes.
+3. Write clear and concise commit messages:
+   ```bash
+   git commit -m "Add feature: your-feature-name"
+   ```
+4. Push your changes to the repository:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Submit a pull request (PR) to the `main` branch. Ensure your PR includes:
+   - A clear description of the changes
+   - References to any related issues
+   - Screenshots or examples, if applicable
 
-### 4. Suggest a Resource
+## Coding Standards
 
-- Add links to `resources/links.md` or books to `resources/books.md`.
-- Include a brief description of the resource and why it's useful.
+- Write meaningful variable and function names.
+- Include comments to explain complex logic.
 
-## 💡 Contribution Workflow
+## Documentation
 
-1. **Fork the Repository**: Start by forking the repo to your account.
-2. **Create a Branch**: Use a meaningful name like `feat/add-guide-vue-router`.
-3. **Submit a Pull Request**:
-   - Link any related Issue in the description.
-   - Clearly explain the changes you’re making.
-4. **Respond to Reviews**: Collaborate with maintainers to finalize your contribution.
+If your contribution impacts documentation, update the relevant files in the `/docs` directory. Use clear and concise language, and add examples if needed.
 
-## ⚙️ Code Style and Guidelines
+## Community and Support
 
-- Follow the general Vue.js best practices.
-- Use proper formatting in Markdown files for readability.
-- Snippets should be well-commented and adhere to JavaScript ES6+ standards.
+Join our community discussions on [Discussions](https://github.com/frontend-knowledge-hub/vue-hub/discussions). If you have questions or need help, feel free to reach out there.
 
-## 🧙 Issue and Pull Request Templates
+---
 
-- **Bug Reports**: Use the `bug_report.md` template to report issues.
-- **Feature Requests**: Use the `feature_request.md` template for new ideas.
-- **Pull Requests**: Use the `PULL_REQUEST_TEMPLATE.md` to submit contributions.
-
-We’re excited to see your contributions! Together, let’s build an amazing knowledge base for Vue developers. 💚
+Thank you for helping make Vue-Hub better! Your contributions are greatly appreciated.
