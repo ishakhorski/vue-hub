@@ -39,7 +39,8 @@ You're all set to contribute!
 
 ### Reporting Bugs
 
-If you find a bug, please create an issue using the [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md). Provide as much detail as possible, including:
+If you find a bug, please create an issue using the Bug Report Template. Provide as much detail as possible, including:
+
 - Steps to reproduce the issue
 - Expected behavior
 - Actual behavior
@@ -47,7 +48,8 @@ If you find a bug, please create an issue using the [Bug Report Template](.githu
 
 ### Suggesting Features
 
-We welcome suggestions for new features! Open an issue using the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md) and describe:
+We welcome suggestions for new features! Open an issue using the Feature Request Template and describe:
+
 - The problem you're trying to solve
 - Your proposed solution
 - Any alternatives you've considered
@@ -56,21 +58,19 @@ We welcome suggestions for new features! Open an issue using the [Feature Reques
 
 1. Create a new branch directly in the main repository:
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feat/your-feature-name
    ```
    - Use the following branch naming conventions:
-     - `feature/<short-description>` for new features
-     - `bugfix/<short-description>` for bug fixes
-     - `hotfix/<short-description>` for urgent fixes
-     - `docs/<short-description>` for documentation updates
+     - `feat/<short-description>` for new features
+     - `fix/<short-description>` for bug fixes
 2. Make your changes.
 3. Write clear and concise commit messages:
    ```bash
-   git commit -m "Add feature: your-feature-name"
+   git commit -m "feat: your-feature-name"
    ```
 4. Push your changes to the repository:
    ```bash
-   git push origin feature/your-feature-name
+   git push origin feat/your-feature-name
    ```
 5. Submit a pull request (PR) to the `main` branch. Ensure your PR includes:
    - A clear description of the changes
@@ -84,7 +84,7 @@ We welcome suggestions for new features! Open an issue using the [Feature Reques
 
 ## Documentation
 
-If your contribution impacts documentation, update the relevant files in the `/docs` directory. Use clear and concise language, and add examples if needed.
+If your contribution impacts common documentation, update the relevant files. Use clear and concise language, and add examples if needed.
 
 ## Community and Support
 
