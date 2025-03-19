@@ -80,7 +80,7 @@ We welcome suggestions for new features! Open an issue using the Feature Request
 2. Make your changes.
 3. Write clear and concise commit messages:
    ```bash
-   git commit -m "feat: your-feature-description"
+   git commit -m "feat(<your-feature-name>): <your-commit-description>"
    ```
 4. Push your changes to the repository:
    ```bash
