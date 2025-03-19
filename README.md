@@ -4,14 +4,13 @@ Welcome to the **Vue Knowledge HUB**, your go-to repository for all things Vue.j
 
 ## 📚 What's Inside
 
-- **[Guides](/guides/README.md)**: Step-by-step tutorials and explanations on essential Vue topics.
-- **[Snippets](/snippets/README.md)**: Reusable code snippets for common tasks.
 - **[Best Practices](/best-practices/README.md)**: Recommendations for structuring and writing efficient Vue applications.
 - **[Resources](/resources/README.md)**: A curated list of links to helpful articles, books, and tools.
+- **[Code Snippets](/snippets/README.md)**: Ready-to-use code examples for common Vue.js patterns and features.
 
 ## 🚀 Getting Started
 
-1. **Explore the Content**: Check out the folders for guides, snippets, and resources.
+1. **Explore the Content**: Check out the content inside the repository and share your thoughts.
 2. **Contribute Your Knowledge**: Found something useful? Share it with the community!
 3. **Join Discussions**: Use Issues and Discussions to ask questions or propose new content.
 
@@ -20,8 +19,9 @@ Welcome to the **Vue Knowledge HUB**, your go-to repository for all things Vue.j
 We welcome contributions from everyone! Here's how you can help:
 
 1. **Check out the [CONTRIBUTING.md](CONTRIBUTING.md)** file for detailed instructions.
-2. Submit your ideas, guides, or snippets as a Pull Request.
-3. Use our templates for Issues and Pull Requests to make collaboration easier.
+2. **Report Issues**: If you find a bug or have a suggestion, open an issue to let us know.
+3. **Submit Pull Requests**: Fork the repository, make your changes, and submit a pull request for review.
+4. **Review Contributions**: Help review open pull requests and provide constructive feedback.
 
 ## 💬 Stay Connected
 

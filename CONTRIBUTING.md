@@ -18,20 +18,33 @@ Thank you for your interest in contributing to Vue-Hub! Your contributions help 
 
 ## Code of Conduct
 
-Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a respectful and inclusive community. By participating, you agree to abide by its terms.
+Please review our [Code of Conduct](https://github.com/frontend-knowledge-hub/vue-hub?tab=coc-ov-file) to ensure a respectful and inclusive community. By participating, you agree to abide by its terms.
 
 ## Getting Started
 
 ### Setup Instructions
 
-1. Clone the repository:
+To set up the project locally, follow these steps:
+
+1. **Fork the Repository**:
+   Click the "Fork" button at the top-right corner of the [Vue-Hub repository](https://github.com/frontend-knowledge-hub/vue-hub) to create your own copy.
+
+2. **Clone Your Fork**:
+   Clone your forked repository to your local machine:
    ```bash
-   git clone https://github.com/frontend-knowledge-hub/vue-hub.git
-   ```
-2. Navigate to the project directory:
-   ```bash
+   git clone https://github.com/<your-username>/vue-hub.git
    cd vue-hub
    ```
+
+3. **Sync with Upstream** (optional):
+   To keep your fork up-to-date with the original repository:
+   ```bash
+   git remote add upstream https://github.com/frontend-knowledge-hub/vue-hub.git
+   git fetch upstream
+   git merge upstream/main
+   ```
+
+Make sure to check the [README.md](README.md) for additional details or troubleshooting tips.
 
 You're all set to contribute!
 
@@ -63,16 +76,17 @@ We welcome suggestions for new features! Open an issue using the Feature Request
    - Use the following branch naming conventions:
      - `feat/<short-description>` for new features
      - `fix/<short-description>` for bug fixes
+     - `docs/<short-description>` for docs improvements
 2. Make your changes.
 3. Write clear and concise commit messages:
    ```bash
-   git commit -m "feat: your-feature-name"
+   git commit -m "feat: your-feature-description"
    ```
 4. Push your changes to the repository:
    ```bash
    git push origin feat/your-feature-name
    ```
-5. Submit a pull request (PR) to the `main` branch. Ensure your PR includes:
+5. Submit a pull request (PR) using relevant template to the `main` branch. Ensure your PR includes:
    - A clear description of the changes
    - References to any related issues
    - Screenshots or examples, if applicable

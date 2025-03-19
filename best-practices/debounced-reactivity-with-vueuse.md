@@ -8,7 +8,7 @@ The `refDebounced` is a utility that creates a debounced version of a reactive r
 
 ### Syntax
 
-```sh
+```js
 import { refDebounced } from '@vueuse/core';
 
 const debouncedRef = refDebounced(originalRef, delay);
@@ -25,7 +25,7 @@ const debouncedRef = refDebounced(originalRef, delay);
 
 ### Example
 
-```sh
+```js
 import { ref, computed } from 'vue';
 import { refDebounced } from '@vueuse/core';
 
@@ -41,7 +41,7 @@ watch(debouncedQuery, (newQuery) => {
 
 The `watchDebounced` is a wrapper around Vue's watch function that adds debounce functionality to the watcher. Instead of firing immediately on reactive changes, the callback is delayed until the source stops changing for the specified debounce duration.
 
-```sh
+```js
 import { watchDebounced } from '@vueuse/core';
 
 watchDebounced(source, callback, { debounce });
@@ -59,7 +59,7 @@ watchDebounced(source, callback, { debounce });
 
 ### Example
 
-```sh
+```js
 import { ref } from 'vue';
 import { watchDebounced } from '@vueuse/core';
 
