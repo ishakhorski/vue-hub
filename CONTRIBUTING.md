@@ -102,7 +102,7 @@ If your contribution impacts common documentation, update the relevant files. Us
 
 ## Community and Support
 
-Join our community discussions on [Discussions](https://github.com/orgs/frontend-knowledge-hub/discussions). If you have questions or need help, feel free to reach out there.
+Join our community discussions on [Discussions](https://github.com/frontend-knowledge-hub/vue-hub/discussions). If you have questions or need help, feel free to reach out there.
 
 ---
 
