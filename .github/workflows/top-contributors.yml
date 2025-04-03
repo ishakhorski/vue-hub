@@ -24,7 +24,6 @@ jobs:
           limit: 10
           marker_start: <!-- TOP-CONTRIBUTORS-START -->
           marker_end: <!-- TOP-CONTRIBUTORS-END -->
-          organization: frontend-knowledge-hub
           exclude: '["*[bot]"]'
 
       - name: Create Pull Request
