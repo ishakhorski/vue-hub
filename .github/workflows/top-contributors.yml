@@ -20,7 +20,7 @@ jobs:
         uses: ishakhorski/top-contributors@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          output: profile/README.md
+          output: README.md
           limit: 10
           marker_start: <!-- TOP-CONTRIBUTORS-START -->
           marker_end: <!-- TOP-CONTRIBUTORS-END -->
