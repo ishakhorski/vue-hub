@@ -1,0 +1,37 @@
+name: Generate Top Contributors Leaderboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1'  # Every Monday at midnight UTC
+
+jobs:
+  generate-leaderboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Top Contributors Leaderboard
+        uses: ishakhorski/top-contributors@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: README.md
+          limit: 10
+          marker_start: <!-- TOP-CONTRIBUTORS-START -->
+          marker_end: <!-- TOP-CONTRIBUTORS-END -->
+          exclude: '["*[bot]"]'
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: Update top contributors leaderboard [auto]"
+          branch: feat/update-leaderboard
+          title: "feat: Weekly Top Contributors Update"
+          body: "This PR updates the README.md file with the latest top contributors."
+          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
