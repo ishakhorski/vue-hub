@@ -1,5 +1,7 @@
 # useEventListener
 
+> **Note:** This guide demonstrates a custom implementation for learning purposes. For production applications, consider using [VueUse's useEventListener](https://vueuse.org/core/useEventListener/) from their excellent [utility collection](https://vueuse.org/). The VueUse version offers additional features and SSR support.
+
 Efficiently add event listeners to DOM elements or global objects with automatic cleanup when the component unmounts. This composable handles common use cases like tracking scroll position, window resizing, keyboard input, or custom DOM events.
 
 ## Function Definition
