@@ -21,17 +21,6 @@ Without error boundaries, any of these issues could potentially crash your entir
 Here's how to create a straightforward error boundary component:
 
 ```vue
-<!-- ErrorBoundary.vue -->
-<template>
-  <div>
-    <slot v-if="!hasError" />
-    <div v-else>
-      <p>Oops! Something went wrong.</p>
-      <button @click="resetError">Try again</button>
-    </div>
-  </div>
-</template>
-
 <script setup>
 import { ref, onErrorCaptured } from "vue";
 
@@ -49,13 +38,23 @@ onErrorCaptured((err, instance, info) => {
   return true;
 });
 </script>
+
+<template>
+  <div>
+    <slot v-if="!hasError" />
+    <div v-else>
+      <p>Oops! Something went wrong.</p>
+      <button @click="resetError">Try again</button>
+    </div>
+  </div>
+</template>
 ```
 
 ### Usage Example
 
 Wrap any component that might encounter errors:
 
-```vue
+```html
 <ErrorBoundary>
   <UserProfile />
 </ErrorBoundary>
@@ -95,7 +94,7 @@ onErrorCaptured((err, instance, info) => {
 
 If one widget fails, the rest of the dashboard remains operational.
 
-```vue
+```html
 <Dashboard>
   <ErrorBoundary>
     <SalesWidget />
@@ -110,7 +109,7 @@ If one widget fails, the rest of the dashboard remains operational.
 
 Use error boundaries when embedding external components or widgets:
 
-```vue
+```html
 <ErrorBoundary>
   <ExternalPaymentGateway />
 </ErrorBoundary>
@@ -120,7 +119,7 @@ Use error boundaries when embedding external components or widgets:
 
 Wrap new or experimental features, so issues do not affect the entire app:
 
-```vue
+```html
 <ErrorBoundary>
   <ExperimentalChatbot />
 </ErrorBoundary>
